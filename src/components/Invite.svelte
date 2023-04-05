@@ -6,7 +6,6 @@
 	let reference: HTMLInputElement;
 
 	const handleSubmit = () => {
-		console.log(resource, valid(resource));
 		if (!valid(resource)) {
 			return setValidationMessage();
 		}
